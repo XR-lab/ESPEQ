@@ -165,7 +165,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.DefaultCompany.EspeqBuild
-    Standalone: com.DefaultCompany.CinekidLWRP2
+    Standalone: com.DefaultCompany.EspeqLWRP
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 19
@@ -648,14 +648,14 @@ PlayerSettings:
     Android: 6
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Cinekid
+  metroPackageName: Espeq
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Cinekid
+  metroApplicationDescription: Espeq
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
