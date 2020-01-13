@@ -9,7 +9,6 @@ TagManager:
   - Leader
   - Hand
   - FadePanel
-  - WallBall
   layers:
   - Default
   - TransparentFX
