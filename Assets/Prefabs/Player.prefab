@@ -555,7 +555,7 @@ MonoBehaviour:
   HMDRotatesPlayer: 1
   RotationEitherThumbstick: 1
   RotationAngle: 45
-  Speed: 0
+  Speed: 4
   CameraRig: {fileID: 4585530748360414114}
 --- !u!136 &4585530748720858238
 CapsuleCollider:
@@ -775,7 +775,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OrientationMode: 0
-  Thumbstick: 0
+  Thumbstick: 3
   RotateStickThreshold: 0.8
 --- !u!114 &4585530748981740600
 MonoBehaviour:
