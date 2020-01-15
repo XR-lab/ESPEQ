@@ -12,30 +12,8 @@ public class TeleportInputHandlerCustom : TeleportInputHandlerHMD
     public Transform LeftHand;
     public Transform RightHand;
 
-    /// <summary>
-    /// These buttons are used for selecting which capacitive button is used when InputMode==CapacitiveButtonForAimAndTeleport
-    /// </summary>
-    public enum AimCapTouchButton {
-        None,
-        A,
-        B,
-        X,
-        Y
-    }
-
-    private readonly OVRInput.RawButton[] _rawButtons = {
-        OVRInput.RawButton.A,
-        OVRInput.RawButton.B,
-        OVRInput.RawButton.X,
-        OVRInput.RawButton.Y
-    };
-
-    private readonly OVRInput.RawTouch[] _rawTouch = {
-        OVRInput.RawTouch.A,
-        OVRInput.RawTouch.B,
-        OVRInput.RawTouch.X,
-        OVRInput.RawTouch.Y
-    };
+    private OVRInput.RawButton[] _rawButtons;
+    private OVRInput.RawTouch[] _rawTouch;
 
     /// <summary>
     /// Which controller is being used for aiming.
@@ -43,16 +21,15 @@ public class TeleportInputHandlerCustom : TeleportInputHandlerHMD
     [Tooltip("Select the controller to be used for aiming. Supports LTouch, RTouch, or Touch for either.")]
     public OVRInput.Controller AimingController;
 
-    private OVRInput.Controller InitiatingController;
+    private OVRInput.Controller _initiatingController;
 
     /// <summary>
     /// The button to use for triggering aim and teleport when InputMode==CapacitiveButtonForAimAndTeleport
     /// </summary>
-    [Tooltip("Select the button to use for triggering aim and teleport when InputMode==CapacitiveButtonForAimAndTeleport")]
-    public AimCapTouchButton[] CapacitiveAimAndTeleportButtons;
+    private OVRInput.RawButton[] _capacitiveAimAndTeleportButtons;
 
-    private AimCapTouchButton currentCapacitiveButton;
-    private OVRInput.RawTouch currentAimTouch;
+    private OVRInput.RawButton _currentCapacitiveButton;
+    private OVRInput.RawTouch _currentAimTouch;
 
     /// <summary>
     /// Based on the input mode, controller state, and current intention of the teleport controller, return the apparent intention of the user.
@@ -63,9 +40,7 @@ public class TeleportInputHandlerCustom : TeleportInputHandlerHMD
             return global::LocomotionTeleport.TeleportIntentions.None;
         }
 
-        // Capacitive touch logic is essentially the same as the base logic, except the button types are different
-        // so different methods need to be used.
-        OVRInput.RawButton teleportButton = _rawButtons[(int)currentCapacitiveButton];
+        OVRInput.RawButton teleportButton = _currentCapacitiveButton;
 
         if (LocomotionTeleport.CurrentIntention == LocomotionTeleport.TeleportIntentions.Aim) {
             // If the user has actually pressed the teleport button, enter the preteleport state.
@@ -80,8 +55,8 @@ public class TeleportInputHandlerCustom : TeleportInputHandlerHMD
         if (LocomotionTeleport.CurrentIntention == LocomotionTeleport.TeleportIntentions.PreTeleport) {
             // If they released the button, switch to Teleport.
             if (FastTeleport || OVRInput.GetUp(teleportButton)) {
-                currentAimTouch = OVRInput.RawTouch.None;
-                currentCapacitiveButton = AimCapTouchButton.None;
+                _currentAimTouch = OVRInput.RawTouch.None;
+                _currentCapacitiveButton = OVRInput.RawButton.None;
                 // Button released, enter the Teleport state.
                 return LocomotionTeleport.TeleportIntentions.Teleport;
             }
@@ -96,7 +71,7 @@ public class TeleportInputHandlerCustom : TeleportInputHandlerHMD
         }
 
         if (LocomotionTeleport.CurrentIntention == LocomotionTeleport.TeleportIntentions.Aim) {
-            if (!OVRInput.GetUp(_rawTouch[(int)currentCapacitiveButton])) {
+            if (!OVRInput.GetUp(_currentAimTouch)) {
                 return LocomotionTeleport.TeleportIntentions.Aim;
             }
         }
@@ -104,21 +79,31 @@ public class TeleportInputHandlerCustom : TeleportInputHandlerHMD
         return LocomotionTeleport.TeleportIntentions.None;
     }
 
+    void Start() {
+        Invoke("GetButtonMapping", 0.1f);
+    }
+
+    void GetButtonMapping() {
+        _rawButtons = OVRInputManager.instance.GetTeleportRawButtons();
+        _capacitiveAimAndTeleportButtons = _rawButtons;
+        _rawTouch = OVRInputManager.instance.GetTeleportRawTouches();
+    }
+
     private bool GetCurrentRawTouchDown(OVRInput.RawTouch[] touches) {
         bool touching = false;
         int length = touches.Length;
         for (int i = 0; i < length; i++) {
             if (OVRInput.GetDown(touches[i])) {
-                currentAimTouch = touches[i];
-                currentCapacitiveButton = CapacitiveAimAndTeleportButtons[i];
+                _currentAimTouch = touches[i];
+                _currentCapacitiveButton = _capacitiveAimAndTeleportButtons[i];
                 touching = true;
             }
         }
-        if (currentAimTouch == OVRInput.RawTouch.X || currentAimTouch == OVRInput.RawTouch.Y) {
-            InitiatingController = OVRInput.Controller.LTouch;
+        if (_currentAimTouch == OVRInput.RawTouch.X || _currentAimTouch == OVRInput.RawTouch.Y) {
+            _initiatingController = OVRInput.Controller.LTouch;
         }
         else {
-            InitiatingController = OVRInput.Controller.RTouch;
+            _initiatingController = OVRInput.Controller.RTouch;
         }
         return touching;
     }
@@ -126,7 +111,7 @@ public class TeleportInputHandlerCustom : TeleportInputHandlerHMD
     public override void GetAimData(out Ray aimRay) {
         OVRInput.Controller sourceController = AimingController;
         if (sourceController == OVRInput.Controller.Touch) {
-            sourceController = InitiatingController;
+            sourceController = _initiatingController;
         }
         Transform t = (sourceController == OVRInput.Controller.LTouch) ? LeftHand : RightHand;
         aimRay = new Ray(t.position, t.forward);

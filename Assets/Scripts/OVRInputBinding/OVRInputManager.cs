@@ -36,7 +36,9 @@ public class OVRInputManager : MonoBehaviour
     [SerializeField]
     private OVRInput.RawAxis1D _interactRaw;
     [SerializeField]
-    private OVRInput.RawButton _teleportRaw;
+    private OVRInput.RawButton[] _teleportRaw;
+    [SerializeField]
+    private OVRInput.RawTouch[] _teleportRawTouch;
     [SerializeField]
     private OVRInput.RawButton _pauseRaw;
 
@@ -120,18 +122,52 @@ public class OVRInputManager : MonoBehaviour
         return OVRInput.Get(_interactRaw);
     }
 
-    public bool GetTeleportDownRaw()
+    public bool[] GetTeleportDownRaw()
     {
-        return OVRInput.GetDown(_teleportRaw);
+        int length = _teleportRaw.Length;
+        if (length == 0) {
+            return null;
+        }
+        bool[] value = new bool[length];
+        for (int i = 0; i < length; i++) {
+            value[i] = OVRInput.GetDown(_teleportRaw[i]);
+        }
+        return value;
     }
 
-    public bool GetTeleportRaw()
+    public bool[] GetTeleportRaw()
     {
-        return OVRInput.Get(_teleportRaw);
+        int length = _teleportRaw.Length;
+        if (length == 0) {
+            return null;
+        }
+        bool[] value = new bool[length];
+        for (int i = 0; i < length; i++) {
+            value[i] = OVRInput.Get(_teleportRaw[i]);
+        }
+        return value;
     }
 
-    public bool GetTeleportReleaseRaw()
+    public bool[] GetTeleportReleaseRaw()
     {
-        return OVRInput.GetUp(_teleportRaw);
+        int length = _teleportRaw.Length;
+        if (length == 0) {
+            return null;
+        }
+        bool[] value = new bool[length];
+        for (int i = 0; i < length; i++) {
+            value[i] = OVRInput.GetUp(_teleportRaw[i]);
+        }
+        return value;
+    }
+
+    public OVRInput.RawButton[] GetTeleportRawButtons()
+        {
+        return _teleportRaw;
+    }
+
+    public OVRInput.RawTouch[] GetTeleportRawTouches()
+        {
+        return _teleportRawTouch;
     }
 }
