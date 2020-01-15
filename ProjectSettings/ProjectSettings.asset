@@ -164,7 +164,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.DefaultCompany.EspeqBuild
+    Android: com.DefaultCompany.EspeqBuildSprint1
     Standalone: com.DefaultCompany.EspeqLWRP
   buildNumber: {}
   AndroidBundleVersionCode: 1
