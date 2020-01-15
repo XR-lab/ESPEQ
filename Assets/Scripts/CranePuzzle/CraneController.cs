@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CraneController : MonoBehaviour {
 
-    [SerializeField] private Transform _wall;
+    [SerializeField] private Transform[] _targets;
 
     [SerializeField] private float _moveSpeed = 0;
     [SerializeField] private float _maxMoveSpeed;
@@ -34,8 +34,12 @@ public class CraneController : MonoBehaviour {
         if (_moveSpeed < 0) {
             _moveSpeed = 0;
         }
-        _wall.Translate(Vector3.up * _moveSpeed);
-        _distance += _moveSpeed;
-        _isMovingUp = false;
+
+        foreach (Transform _target in _targets)
+        {
+            _target.Translate(Vector3.up * _moveSpeed);
+            _distance += _moveSpeed;
+            _isMovingUp = false;
+        }
     }
 }
