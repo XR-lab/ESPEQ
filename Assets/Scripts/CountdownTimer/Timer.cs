@@ -30,4 +30,8 @@ public class Timer : MonoBehaviour {
             _onTimerEnd?.Invoke();
         }
     }
+
+    public void StopTimer() {
+        _running = false;
+    }
 }
