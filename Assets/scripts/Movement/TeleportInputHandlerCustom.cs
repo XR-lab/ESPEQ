@@ -15,6 +15,8 @@ public class TeleportInputHandlerCustom : TeleportInputHandlerHMD
     private OVRInput.RawButton[] _rawButtons;
     private OVRInput.RawTouch[] _rawTouch;
 
+    private bool _initialized;
+
     /// <summary>
     /// Which controller is being used for aiming.
     /// </summary>
@@ -36,7 +38,7 @@ public class TeleportInputHandlerCustom : TeleportInputHandlerHMD
     /// </summary>
     /// <returns></returns>
     public override LocomotionTeleport.TeleportIntentions GetIntention() {
-        if (!isActiveAndEnabled) {
+        if (!isActiveAndEnabled || !_initialized) {
             return global::LocomotionTeleport.TeleportIntentions.None;
         }
 
@@ -87,6 +89,7 @@ public class TeleportInputHandlerCustom : TeleportInputHandlerHMD
         _rawButtons = OVRInputManager.instance.GetTeleportRawButtons();
         _capacitiveAimAndTeleportButtons = _rawButtons;
         _rawTouch = OVRInputManager.instance.GetTeleportRawTouches();
+        _initialized = true;
     }
 
     private bool GetCurrentRawTouchDown(OVRInput.RawTouch[] touches) {
