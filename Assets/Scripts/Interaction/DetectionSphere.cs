@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-[RequireComponent(typeof(Rigidbody))]
 public class DetectionSphere : MonoBehaviour
 {
     [Serializable]
@@ -24,8 +23,6 @@ public class DetectionSphere : MonoBehaviour
     [SerializeField]
     private DetectionEvent _onDetectionExit;
 
-    private bool _isActive = false;
-
     private Collider _col;
 
     private void Awake()
@@ -36,11 +33,9 @@ public class DetectionSphere : MonoBehaviour
             _col = gameObject.AddComponent<SphereCollider>();
         }
         _col.isTrigger = true;
-        GetComponent<Rigidbody>().isKinematic = true;
-        GetComponent<Rigidbody>().useGravity = false;
     }
 
-    private void ValidateTags(Collider other, DetectionEvent detectionEvent, bool setActive)
+    private void ValidateTags(Collider other, DetectionEvent detectionEvent)
     {
         if (_detectionTags.Count != 0)
         { 
@@ -48,37 +43,17 @@ public class DetectionSphere : MonoBehaviour
             {
                 if (other.gameObject.tag == tag)
                 {
-                    _isActive = setActive;
-
                     DetectionData data = new DetectionData(other, _col);
                     detectionEvent?.Invoke(data);
                 }
             }
         } else Debug.LogError("No tags were listed to check on.");
-
-    }
-
-    private void ValidateTags(Collider other, DetectionEvent detectionEvent)
-    {
-        if (_detectionTags.Count != 0)
-        {
-            foreach (string tag in _detectionTags)
-            {
-                if (other.gameObject.tag == tag)
-                {
-                    DetectionData data = new DetectionData(other, _col);
-                    detectionEvent?.Invoke(data);
-                }
-            }
-        }
-        else Debug.LogError("No tags were listed to check on.");
-        
     }
 
     private void OnTriggerEnter(Collider other)
     {
         Collider ownCollider = GetComponent<Collider>();
-        ValidateTags(other,_onDetectionEnter,true);
+        ValidateTags(other,_onDetectionEnter);
     }
 
     private void OnTriggerStay(Collider other)
@@ -88,7 +63,7 @@ public class DetectionSphere : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        ValidateTags(other,_onDetectionExit,false);
+        ValidateTags(other,_onDetectionExit);
     }
 }
 
