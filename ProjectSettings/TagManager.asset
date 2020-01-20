@@ -9,6 +9,8 @@ TagManager:
   - Leader
   - Hand
   - FadePanel
+  - LeftHand
+  - RightHand
   layers:
   - Default
   - TransparentFX
