@@ -21,7 +21,7 @@ public class OVRInputManager : MonoBehaviour
     [SerializeField]
     private OVRInput.Axis2D _rotate;
     [SerializeField]
-    private OVRInput.Axis1D _interact;
+    private OVRInput.Axis1D[] _interact;
     [SerializeField]
     private OVRInput.Button _teleport;
     [SerializeField]
@@ -34,7 +34,7 @@ public class OVRInputManager : MonoBehaviour
     [SerializeField]
     private OVRInput.RawAxis2D _rotateRaw;
     [SerializeField]
-    private OVRInput.RawAxis1D _interactRaw;
+    private OVRInput.RawAxis1D[] _interactRaw;
     [SerializeField]
     private OVRInput.RawButton[] _teleportRaw;
     [SerializeField]
@@ -90,9 +90,17 @@ public class OVRInputManager : MonoBehaviour
         return OVRInput.Get(_rotate);
     }
 
-    public float GetInteract()
+    public float[] GetInteract()
     {
-        return OVRInput.Get(_interact);
+        int length = _interact.Length;
+        if (length == 0) {
+            return null;
+        }
+        float[] value = new float[length];
+        for (int i = 0; i < length; i++) {
+            value[i] = OVRInput.Get(_interact[i]);
+        }
+        return value;
     }
 
     public bool GetTeleportDown()
@@ -117,9 +125,17 @@ public class OVRInputManager : MonoBehaviour
         return OVRInput.Get(_rotateRaw);
     }
 
-    public float GetInteractRaw()
+    public float[] GetInteractRaw()
     {
-        return OVRInput.Get(_interactRaw);
+        int length = _interactRaw.Length;
+        if (length == 0) {
+            return null;
+        }
+        float[] value = new float[length];
+        for (int i = 0; i < length; i++) {
+            value[i] = OVRInput.Get(_interactRaw[i]);
+        }
+        return value;
     }
 
     public bool[] GetTeleportDownRaw()
@@ -169,5 +185,9 @@ public class OVRInputManager : MonoBehaviour
     public OVRInput.RawTouch[] GetTeleportRawTouches()
         {
         return _teleportRawTouch;
+    }
+
+    public OVRInput.RawAxis1D[] GetInteractRawButtons() {
+        return _interactRaw;
     }
 }
