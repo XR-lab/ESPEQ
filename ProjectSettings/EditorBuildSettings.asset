@@ -5,13 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/InputTestScene/OVRInputBind.unity
+    guid: 08de2e9e7f0e2f64c96980ce741ac202
+  - enabled: 0
+    path: Assets/Scenes/BuildSprint1.unity
+    guid: 9f44b70a2aafaf240a9b0c0c22404830
   - enabled: 1
-    path: Assets/Scenes/SceneSwitchingTestScenes/FirstLevel.unity
-    guid: 7d929378b4eb2fb499068fb720df5b70
-  - enabled: 1
-    path: Assets/Scenes/SceneSwitchingTestScenes/SecondLevel.unity
-    guid: d3427069d074e324793cb1767c35f854
-  - enabled: 1
-    path: Assets/Scenes/SceneSwitchingTestScenes/GameOver.unity
-    guid: 15d326226a9f5b042ad872e9be65e303
+    path: Assets/Scenes/InteractTest.unity
+    guid: 221bf36d52503ac4c83cc99dabdf9a8f
   m_configObjects: {}
