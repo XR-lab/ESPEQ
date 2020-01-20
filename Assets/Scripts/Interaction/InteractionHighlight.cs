@@ -74,7 +74,7 @@ public class InteractionHighlight : MonoBehaviour
                     break;
                 }
                 
-                if (OVRInputManager.instance.GetInteract() >= _thresholdTrigger)
+                if (OVRInputManager.instance.GetInteract().Length >= _thresholdTrigger)
                 {
                     StateAction(Situation.Exit);
                     _highlightState = Highlight.Triggered;
@@ -85,7 +85,7 @@ public class InteractionHighlight : MonoBehaviour
                 StateAction(Situation.Stay);
                 break;
             case Highlight.Triggered:
-                if (OVRInputManager.instance.GetInteract() < _thresholdTrigger)
+                if (OVRInputManager.instance.GetInteract().Length < _thresholdTrigger)
                 {
                     StateAction(Situation.Exit);
                     _highlightState = Highlight.Selected;

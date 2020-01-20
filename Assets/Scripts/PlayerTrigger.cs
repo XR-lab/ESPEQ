@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class SwitchSceneTrigger : MonoBehaviour
+public class PlayerTrigger : MonoBehaviour
 {
     [SerializeField] private UnityEvent _OnTriggerEnter;
     [SerializeField] private string _player;
