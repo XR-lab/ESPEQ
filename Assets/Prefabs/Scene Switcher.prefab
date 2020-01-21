@@ -46,8 +46,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _scenes:
-  - FirstLevel
-  - SecondLevel
+  - BuildSprint1
+  - BreakableWall
   - GameOver
   _beforeDestroy:
     m_PersistentCalls:
@@ -71,7 +71,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _duration: 100
-  _running: 1
+  _running: 0
   _onTimerEnd:
     m_PersistentCalls:
       m_Calls:
@@ -109,8 +109,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe83318ad8257ea4bb454eaeb57b59ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _leftController: 32
-  _rightController: 64
+  _leftController: 1
+  _rightController: 2
   _rotate: 3
   _interact: 0100000002000000
   _teleport: 15
