@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Oculus/VR/Scenes/ControllerModels.unity
-    guid: 39cfe7aa0a2d46c47994d8d0308ec663
+    path: Assets/Scenes/BuildSprint1.unity
+    guid: 9f44b70a2aafaf240a9b0c0c22404830
+  - enabled: 1
+    path: Assets/Scenes/BreakableWall.unity
+    guid: ee541ddbc16cc4136af428a52a40ab24
+  - enabled: 1
+    path: Assets/Scenes/SceneSwitchingTestScenes/GameOver.unity
+    guid: 15d326226a9f5b042ad872e9be65e303
   m_configObjects: {}

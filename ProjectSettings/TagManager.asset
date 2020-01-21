@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - NextLevelTrigger
+  - LevelLoading
+  - Leader
+  - Hand
+  - FadePanel
+  - LeftHand
+  - RightHand
   layers:
   - Default
   - TransparentFX
@@ -14,8 +21,8 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
-  - 
+  - Colorable
+  - Player
   - 
   - 
   - 
