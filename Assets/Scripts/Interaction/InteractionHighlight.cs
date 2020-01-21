@@ -73,15 +73,9 @@ public class InteractionHighlight : MonoBehaviour
                     StateAction(Situation.Enter);
                     break;
                 }
-                bool Triggered = false;
-                foreach (float Axis1D in OVRInputManager.instance.GetInteract())
+                
+                if (OVRInputManager.instance.GetInteract().Length >= _thresholdTrigger)
                 {
-                    if (Axis1D > 0.9)
-                    {
-                        Triggered = true;
-                    }
-                }
-                if (Triggered) {
                     StateAction(Situation.Exit);
                     _highlightState = Highlight.Triggered;
                     StateAction(Situation.Enter);
@@ -91,27 +85,12 @@ public class InteractionHighlight : MonoBehaviour
                 StateAction(Situation.Stay);
                 break;
             case Highlight.Triggered:
-                bool UnTriggered = true;
-                foreach (float Axis1D in OVRInputManager.instance.GetInteract())
+                if (OVRInputManager.instance.GetInteract().Length < _thresholdTrigger)
                 {
-                    if (Axis1D > 0.9)
-                    {
-                        UnTriggered = false;
-                    }
-                }
-
-                if (UnTriggered) {
                     StateAction(Situation.Exit);
                     _highlightState = Highlight.Selected;
                     StateAction(Situation.Enter);
                     break;
-                };
-
-                if (_objectsInSelect.Count == 0)
-                {
-                    StateAction(Situation.Exit);
-                    _highlightState = Highlight.Hover;
-                    StateAction(Situation.Enter);
                 }
                 StateAction(Situation.Stay);
                 break;
@@ -189,7 +168,6 @@ public class InteractionHighlight : MonoBehaviour
     {
         if (_triggerAble)
         {
-            Debug.Log("Triggered?");
             StateUpdate();
         }
     }
