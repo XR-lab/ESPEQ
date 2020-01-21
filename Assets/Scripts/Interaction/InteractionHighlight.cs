@@ -73,9 +73,15 @@ public class InteractionHighlight : MonoBehaviour
                     StateAction(Situation.Enter);
                     break;
                 }
-                
-                if (OVRInputManager.instance.GetInteract() > 0.9)
+                bool Triggered = false;
+                foreach (float Axis1D in OVRInputManager.instance.GetInteract())
                 {
+                    if (Axis1D > 0.9)
+                    {
+                        Triggered = true;
+                    }
+                }
+                if (Triggered) {
                     StateAction(Situation.Exit);
                     _highlightState = Highlight.Triggered;
                     StateAction(Situation.Enter);
@@ -85,13 +91,22 @@ public class InteractionHighlight : MonoBehaviour
                 StateAction(Situation.Stay);
                 break;
             case Highlight.Triggered:
-                if (OVRInputManager.instance.GetInteract() < 0.9)
+                bool UnTriggered = true;
+                foreach (float Axis1D in OVRInputManager.instance.GetInteract())
                 {
+                    if (Axis1D > 0.9)
+                    {
+                        UnTriggered = false;
+                    }
+                }
+
+                if (UnTriggered) {
                     StateAction(Situation.Exit);
                     _highlightState = Highlight.Selected;
                     StateAction(Situation.Enter);
                     break;
-                }
+                };
+
                 if (_objectsInSelect.Count == 0)
                 {
                     StateAction(Situation.Exit);

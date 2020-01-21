@@ -2195,11 +2195,11 @@ MonoBehaviour:
   _leftController: 32
   _rightController: 64
   _rotate: 0
-  _interact: 3
+  _interact: 0100000002000000
   _teleport: 0
   _pause: 0
   _rotateRaw: 0
-  _interactRaw: 3
+  _interactRaw: 
   _teleportRaw: 
   _teleportRawTouch: 
   _pauseRaw: 0
