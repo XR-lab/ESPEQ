@@ -86,7 +86,7 @@ public class TeleportInputHandlerCustom : TeleportInputHandlerHMD
             }
         }
         
-        return LocomotionTeleport.TeleportIntentions.None;
+        return LocomotionTeleport.TeleportIntentions.Aim;
     }
 
     void Start() {
