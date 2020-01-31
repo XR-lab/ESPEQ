@@ -89,7 +89,6 @@ public class OVRInputManager : MonoBehaviour
     {
         return OVRInput.Get(_rotate);
     }
-
     public float[] GetInteract()
     {
         int length = _interact.Length;

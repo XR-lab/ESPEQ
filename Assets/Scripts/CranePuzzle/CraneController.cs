@@ -4,42 +4,32 @@ using UnityEngine;
 
 public class CraneController : MonoBehaviour {
 
-    [SerializeField] private Transform[] _targets;
+    [SerializeField] private Transform _target;
+    [SerializeField] private float _distanceToTravel = 1;
 
-    [SerializeField] private float _moveSpeed = 0;
-    [SerializeField] private float _maxMoveSpeed;
-    [SerializeField] private float _acceleration;
-    [SerializeField] private float _distance = 0;
-    [SerializeField] private float _maxDistance;
-    private bool _isMovingUp;
+    private float _targetPos;
+    private float _startPos;
+    private float _pos;
 
-    public void MoveUp() {
-        _isMovingUp = true;
-        if (_distance < _maxDistance) {
-            if (_moveSpeed < _maxMoveSpeed) {
-                _moveSpeed += _acceleration;
-            }
-        }
+    private bool _move = false;
+
+    void Start()
+    {
+        _startPos = _target.localPosition.y;
+        _pos = _startPos;
+        _targetPos = _startPos + _distanceToTravel;
     }
 
-    void Update() {
-        if (_moveSpeed == 0) {
-            return;
-        }
-        if (_distance >= _maxDistance || !_isMovingUp) {
-            if (_moveSpeed > 0) {
-                _moveSpeed -= _acceleration;
-            }
-        }
-        if (_moveSpeed < 0) {
-            _moveSpeed = 0;
-        }
+    public void MoveUp() {
+        _move = true;
+    }
 
-        foreach (Transform _target in _targets)
+    void Update()
+    {
+        if (_move && _pos < _targetPos)
         {
-            _target.Translate(Vector3.up * _moveSpeed);
-            _distance += _moveSpeed;
-            _isMovingUp = false;
+            _pos += .01f;
+            _target.localPosition = new Vector3(_target.localPosition.x, _pos, _target.localPosition.z);
         }
     }
 }

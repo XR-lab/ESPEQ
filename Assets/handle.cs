@@ -4,12 +4,16 @@ using UnityEngine;
 
 public class handle : MonoBehaviour
 {
-    private void OnTrigger()
+    private void OnTriggerStay(Collider _coll)
     {
-        if (OVRInput.Get(OVRInput.Axis1D.SecondaryHandTrigger, OVRInput.Controller.Touch) < .5f)
-            return;
+        if (_coll.gameObject.CompareTag("Hand") && OVRInputManager.instance.GetInteract()[0] == 1 && transform.localPosition.z > -.5f)
+        {
+            transform.localPosition -= Vector3.forward * OVRInput.GetLocalControllerVelocity(OVRInput.Controller.RTrackedRemote).sqrMagnitude;
+        }
 
-        this.transform.position = OVRInput.GetLocalControllerPosition(OVRInput.Controller.RTouch);
+        if(transform.localPosition.z <= -.45f)
+        {
+            GetComponent<CraneController>().MoveUp();
+        }
     }
-    
 }
