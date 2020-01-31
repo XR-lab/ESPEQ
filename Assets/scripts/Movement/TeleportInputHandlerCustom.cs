@@ -68,25 +68,17 @@ public class TeleportInputHandlerCustom : TeleportInputHandlerHMD
 
         // If it made it this far, then we need to determine if the user intends to be aiming with the capacitive touch.
         // The first check is if cap touch has been triggered. 
-        foreach (OVRInput.Button button in _rawButtons)
-        {
-            if (OVRInput.Get(button))
-            {
-                return LocomotionTeleport.TeleportIntentions.Aim;
-            }
+        if (GetCurrentRawTouchDown(_rawTouch)) {
+            return LocomotionTeleport.TeleportIntentions.Aim;
         }
 
         if (LocomotionTeleport.CurrentIntention == LocomotionTeleport.TeleportIntentions.Aim) {
-            foreach (OVRInput.Button button in _rawButtons)
-            {
-                if (OVRInput.GetUp(button))
-                {
-                    return LocomotionTeleport.TeleportIntentions.Teleport;
-                }
+            if (!OVRInput.GetUp(_currentAimTouch)) {
+                return LocomotionTeleport.TeleportIntentions.Aim;
             }
         }
         
-        return LocomotionTeleport.TeleportIntentions.Aim;
+        return LocomotionTeleport.TeleportIntentions.None;
     }
 
     void Start() {
