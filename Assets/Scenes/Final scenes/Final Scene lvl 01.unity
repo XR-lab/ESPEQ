@@ -5251,7 +5251,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &320177907
 Transform:
@@ -13837,7 +13837,8 @@ MonoBehaviour:
   m_snapPosition: 0
   m_snapOrientation: 0
   m_snapOffset: {fileID: 0}
-  m_grabPoints: []
+  m_grabPoints:
+  - {fileID: 600829763}
 --- !u!1 &875623927
 GameObject:
   m_ObjectHideFlags: 0
@@ -20772,7 +20773,7 @@ PrefabInstance:
     - target: {fileID: 8589312155294886321, guid: 07dca5265b1c91849becd8a12d2986af,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8589312155294886321, guid: 07dca5265b1c91849becd8a12d2986af,
         type: 3}
@@ -27273,7 +27274,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1719645289
 Transform:
