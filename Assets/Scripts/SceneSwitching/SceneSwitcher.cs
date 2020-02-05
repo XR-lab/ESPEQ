@@ -42,7 +42,8 @@ public class SceneSwitcher : MonoBehaviour
     }
 
     void Awake()
-    {
+    { 
+        _beforeDestroy = BeforeDestroy;
         Instance = this;
         if(GameObject.FindGameObjectsWithTag("LevelLoading").Length > 1) {
             Destroy(GameObject.FindGameObjectsWithTag("LevelLoading")[0]);
@@ -73,6 +74,7 @@ public class SceneSwitcher : MonoBehaviour
         {
             Debug.LogError("NextLevel");
             _scene = SceneManager.GetActiveScene().buildIndex;
+
             if (_scene + 1 < _scenes.Count)
             {
                 _onLoad?.Invoke();
