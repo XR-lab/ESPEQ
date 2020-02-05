@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SceneSwitchingTestScenes/GameOver.unity
     guid: 15d326226a9f5b042ad872e9be65e303
   - enabled: 1
-    path: Assets/Scenes/Final scenes/Final Scene lvl01.unity
+    path: Assets/Scenes/Final scenes/Final Scene lvl 01.unity
     guid: 9ce365a3dffbe454689615fefe2ddac8
   - enabled: 0
     path: Assets/Scenes/Overige scenes/SampleScene.unity
