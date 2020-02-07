@@ -6,11 +6,9 @@ using UnityEngine.Events;
 public class PlayerTrigger : MonoBehaviour
 {
     [SerializeField] private UnityEvent _OnTriggerEnter;
-    [SerializeField] private string _player;
-
     private void OnTriggerEnter(Collider _other)
     {
-        if (_other.gameObject.transform.root.name == _player)
+        if (_other.gameObject.CompareTag("Player"))
         {
             _OnTriggerEnter?.Invoke();
         }
