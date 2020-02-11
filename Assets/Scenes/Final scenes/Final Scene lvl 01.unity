@@ -17576,7 +17576,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 94
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!136 &999365645
 CapsuleCollider:
@@ -31574,7 +31574,7 @@ MonoBehaviour:
   EnableRotationDuringAim: 0
   EnableRotationDuringPreTeleport: 0
   EnableRotationDuringPostTeleport: 1
-  TeleportDestinationPrefab: {fileID: 114000013141257940, guid: 1b474618c4fc5f54e8a8b803c8352c7d,
+  TeleportDestinationPrefab: {fileID: 1305169183890317977, guid: ee25bd8170894ab4294b3cba7958157a,
     type: 3}
   TeleportDestinationLayer: 0
   AimCollisionType: 0

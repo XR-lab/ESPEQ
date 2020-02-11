@@ -15,7 +15,7 @@ public class InteractionTeleport : MonoBehaviour {
         fade.FadeOut();
         yield return new WaitForSeconds(fade.fadeTime);
         player.position = _destination.position;
-        fade.FadeIn();
+        //fade.FadeIn();
     }
 
 }
