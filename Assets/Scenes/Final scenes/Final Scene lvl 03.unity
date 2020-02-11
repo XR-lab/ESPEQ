@@ -120,7 +120,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: 05532b19c527c9948ab6ef27f6746530, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 767486c4685eb1842b9894a5b480eeb9, type: 2}
 --- !u!1001 &613077
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -128,21 +128,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 622796231}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (15)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -212,6 +197,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 0.55008054
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9077ac699e028274a97d4b8ecc269190, type: 3}
@@ -323,16 +323,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (41)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -402,6 +392,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2.9124944
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
@@ -481,6 +481,7 @@ Transform:
   - {fileID: 1764262063559742903}
   - {fileID: 2039099170}
   - {fileID: 1791990211}
+  - {fileID: 4276756324483034}
   - {fileID: 133270736}
   - {fileID: 117901844237207198}
   - {fileID: 999612699}
@@ -491,7 +492,6 @@ Transform:
   - {fileID: 1909103216}
   - {fileID: 816655306}
   - {fileID: 979114777}
-  - {fileID: 4276756324483034}
   - {fileID: 70548636}
   - {fileID: 329878917}
   - {fileID: 538582645}
@@ -552,16 +552,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (22)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -631,6 +621,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 113.85903
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8564382577979770255, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
@@ -733,16 +733,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (44)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -813,6 +803,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9124944
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -865,16 +865,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (17)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -944,6 +934,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 113.85903
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8564382577979770255, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
@@ -1123,16 +1123,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (15)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1202,6 +1192,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2.9124944
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
@@ -1308,16 +1308,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 30358008}
     m_Modifications:
-    - target: {fileID: 5867415257570802446, guid: a150c412978c9d940895f783b0c644f5,
-        type: 3}
-      propertyPath: m_Name
-      value: Ladder_Prefab
-      objectReference: {fileID: 0}
-    - target: {fileID: 5867415257570802446, guid: a150c412978c9d940895f783b0c644f5,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 7437244877896681757, guid: a150c412978c9d940895f783b0c644f5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1388,6 +1378,21 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 91.91433
       objectReference: {fileID: 0}
+    - target: {fileID: 5867415257570802446, guid: a150c412978c9d940895f783b0c644f5,
+        type: 3}
+      propertyPath: m_Name
+      value: Ladder_Prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 5867415257570802446, guid: a150c412978c9d940895f783b0c644f5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5867415257570802446, guid: a150c412978c9d940895f783b0c644f5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a150c412978c9d940895f783b0c644f5, type: 3}
 --- !u!4 &133270736 stripped
@@ -1396,6 +1401,29 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 133270735}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &133270737 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5867415257570802446, guid: a150c412978c9d940895f783b0c644f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 133270735}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &133270738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 133270737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 0
+  m_snapOrientation: 0
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
 --- !u!1001 &143024636
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1403,16 +1431,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (46)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1483,6 +1501,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9124944
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1535,16 +1563,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (69)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1615,6 +1633,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.912551
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (69)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1635,16 +1663,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (18)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1715,6 +1733,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 113.85903
       objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8564382577979770255, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1747,6 +1775,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.010000066, y: 0.010000003, z: 0.009999999}
   m_Center: {x: 0, y: 5.820766e-10, z: -0.0000000013533281}
+--- !u!1 &210098692 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6076527090523192784, guid: c176c1c1d733046a49e386ac37a124b1,
+    type: 3}
+  m_PrefabInstance: {fileID: 979114776}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &210098693
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210098692}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 76.822395, y: 111.421974, z: 86.31253}
+  m_Center: {x: 0.90035516, y: 4.1072454, z: -3.1694572}
 --- !u!1 &222243315
 GameObject:
   m_ObjectHideFlags: 0
@@ -1786,16 +1833,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (24)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1865,6 +1902,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2.9124944
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
@@ -1946,16 +1993,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (26)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2026,6 +2063,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9124944
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2046,16 +2093,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (40)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2126,6 +2163,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9124944
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2146,21 +2193,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 622796231}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (31)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2231,6 +2263,21 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 0.55008054
       objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9077ac699e028274a97d4b8ecc269190, type: 3}
 --- !u!4 &265047002 stripped
@@ -2265,16 +2312,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (30)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2345,6 +2382,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9124944
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2397,21 +2444,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 622796231}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (33)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2481,6 +2513,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 0.55008054
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9077ac699e028274a97d4b8ecc269190, type: 3}
@@ -2739,16 +2786,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (34)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2818,6 +2855,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2.9124944
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
@@ -2894,6 +2941,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 7641480751769167833, guid: 9abceee7b73c62b48a8ad72a4e55a2ad,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 2395798296494057108, guid: 9abceee7b73c62b48a8ad72a4e55a2ad,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2932,7 +2984,7 @@ PrefabInstance:
     - target: {fileID: 2395798296494057108, guid: 9abceee7b73c62b48a8ad72a4e55a2ad,
         type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 2395798296494057108, guid: 9abceee7b73c62b48a8ad72a4e55a2ad,
         type: 3}
@@ -2972,6 +3024,29 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 358430510}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &358430512 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7641480751769167833, guid: 9abceee7b73c62b48a8ad72a4e55a2ad,
+    type: 3}
+  m_PrefabInstance: {fileID: 358430510}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &358430513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358430512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 0
+  m_snapOrientation: 0
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
 --- !u!1 &360377628
 GameObject:
   m_ObjectHideFlags: 0
@@ -3261,16 +3336,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (57)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3341,6 +3406,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9125133
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -3361,21 +3436,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 30358008}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (14)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3441,6 +3501,21 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 274.8171
       objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9077ac699e028274a97d4b8ecc269190, type: 3}
 --- !u!4 &423534350 stripped
@@ -3456,16 +3531,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (33)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3535,6 +3600,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2.9124944
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
@@ -3656,16 +3731,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (68)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3735,6 +3800,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2.912551
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (68)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
@@ -3841,16 +3916,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (38)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3921,6 +3986,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9124944
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -3941,16 +4016,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (20)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4021,6 +4086,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9124944
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4041,16 +4116,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (66)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4121,6 +4186,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.912551
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4186,16 +4261,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (56)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4266,6 +4331,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9125133
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4331,16 +4406,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (73)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4410,6 +4475,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2.9125693
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (73)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
@@ -4721,21 +4796,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 622796231}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (23)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4806,6 +4866,21 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 0.55008054
       objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9077ac699e028274a97d4b8ecc269190, type: 3}
 --- !u!4 &501111646 stripped
@@ -4840,16 +4915,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (22)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4920,6 +4985,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9124944
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4940,16 +5015,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (30)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5019,6 +5084,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 0.91173005
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9077ac699e028274a97d4b8ecc269190, type: 3}
@@ -5189,16 +5264,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (21)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5268,6 +5333,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 113.85903
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8564382577979770255, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
@@ -5582,6 +5657,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 6951064931409737306, guid: b1db054d56a0b1e48aec34d7f4642dee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 1443042691407137819, guid: b1db054d56a0b1e48aec34d7f4642dee,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5667,16 +5747,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (67)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5747,6 +5817,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.912551
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -5767,21 +5847,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 622796231}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (26)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5851,6 +5916,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 0.55008054
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9077ac699e028274a97d4b8ecc269190, type: 3}
@@ -5981,16 +6061,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (50)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6061,6 +6131,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9124944
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -6094,17 +6174,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: efc5e2f13c0ca1045ab0c1ac554e8f18,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.23129345
+      value: 0.2313
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: efc5e2f13c0ca1045ab0c1ac554e8f18,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.4017857
+      value: 0.4997
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: efc5e2f13c0ca1045ab0c1ac554e8f18,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.05127807
+      value: 0.0513
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: efc5e2f13c0ca1045ab0c1ac554e8f18,
         type: 3}
@@ -6181,16 +6261,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (32)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6261,6 +6331,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9124944
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -6290,6 +6370,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6951064931409737306, guid: b1db054d56a0b1e48aec34d7f4642dee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1443042691407137819, guid: b1db054d56a0b1e48aec34d7f4642dee,
         type: 3}
@@ -6421,16 +6506,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (65)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6501,6 +6576,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9125323
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (65)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -6521,21 +6606,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 622796231}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (21)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6605,6 +6675,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 0.55008054
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9077ac699e028274a97d4b8ecc269190, type: 3}
@@ -6767,6 +6852,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7641480751769167833, guid: 9abceee7b73c62b48a8ad72a4e55a2ad,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 2395798296494057108, guid: 9abceee7b73c62b48a8ad72a4e55a2ad,
         type: 3}
@@ -7089,16 +7179,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (43)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7169,6 +7249,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9124944
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -7189,16 +7279,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (10)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7268,6 +7348,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2.9124944
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
@@ -7415,16 +7505,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (14)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7494,6 +7574,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 113.85903
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8564382577979770255, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
@@ -7608,6 +7698,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 7641480751769167833, guid: 9abceee7b73c62b48a8ad72a4e55a2ad,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 2395798296494057108, guid: 9abceee7b73c62b48a8ad72a4e55a2ad,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7686,6 +7781,29 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 714787267}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &714787269 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7641480751769167833, guid: 9abceee7b73c62b48a8ad72a4e55a2ad,
+    type: 3}
+  m_PrefabInstance: {fileID: 714787267}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &714787270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714787269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 0
+  m_snapOrientation: 0
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
 --- !u!1001 &715327952
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7693,21 +7811,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 622796231}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (18)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7778,6 +7881,21 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 0.55008054
       objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9077ac699e028274a97d4b8ecc269190, type: 3}
 --- !u!4 &715327953 stripped
@@ -7812,21 +7930,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 622796231}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (30)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7897,6 +8000,21 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 0.55008054
       objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9077ac699e028274a97d4b8ecc269190, type: 3}
 --- !u!4 &721792445 stripped
@@ -7931,16 +8049,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (20)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8011,6 +8119,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 113.85903
       objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8564382577979770255, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -8050,16 +8168,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (16)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8129,6 +8237,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 113.85903
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8564382577979770255, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
@@ -8316,21 +8434,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 622796231}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (34)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8400,6 +8503,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 0.57709944
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9077ac699e028274a97d4b8ecc269190, type: 3}
@@ -8480,16 +8598,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (21)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8559,6 +8667,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2.9124944
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
@@ -8784,16 +8902,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (25)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8864,6 +8972,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 113.86194
       objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8564382577979770255, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -8903,16 +9021,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (63)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8982,6 +9090,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2.9125323
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
@@ -9266,6 +9384,29 @@ CapsuleCollider:
   m_Height: 0.035
   m_Direction: 2
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &884022245 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1721851818566948571, guid: 050f8fc8d5d0683478e021d01b7f77d5,
+    type: 3}
+  m_PrefabInstance: {fileID: 4162887620087574911}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &884022246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 884022245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 0
+  m_snapOrientation: 0
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
 --- !u!1 &893562367 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6951064931409737306, guid: b1db054d56a0b1e48aec34d7f4642dee,
@@ -9326,16 +9467,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (39)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9406,6 +9537,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9124944
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -9426,16 +9567,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (29)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9506,6 +9637,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.91173005
       objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9077ac699e028274a97d4b8ecc269190, type: 3}
 --- !u!4 &901418983 stripped
@@ -9566,21 +9707,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 622796231}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (24)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9650,6 +9776,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 0.55008054
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9077ac699e028274a97d4b8ecc269190, type: 3}
@@ -9868,16 +10009,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (48)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9948,6 +10079,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9124944
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -9968,16 +10109,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (17)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10048,6 +10179,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9124944
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -10113,16 +10254,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (24)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10193,6 +10324,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 113.86048
       objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8564382577979770255, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -10262,21 +10403,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 622796231}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (25)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10346,6 +10472,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 0.55008054
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9077ac699e028274a97d4b8ecc269190, type: 3}
@@ -10721,6 +10862,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 7641480751769167833, guid: 9abceee7b73c62b48a8ad72a4e55a2ad,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 2395798296494057108, guid: 9abceee7b73c62b48a8ad72a4e55a2ad,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10799,6 +10945,29 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 999612698}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &999612700 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7641480751769167833, guid: 9abceee7b73c62b48a8ad72a4e55a2ad,
+    type: 3}
+  m_PrefabInstance: {fileID: 999612698}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &999612701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 999612700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 0
+  m_snapOrientation: 0
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
 --- !u!1001 &1000117737
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10906,16 +11075,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (58)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10986,6 +11145,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9125133
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -11006,16 +11175,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (12)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11085,6 +11244,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2.9124944
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
@@ -11366,6 +11535,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 6951064931409737306, guid: b1db054d56a0b1e48aec34d7f4642dee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 1443042691407137819, guid: b1db054d56a0b1e48aec34d7f4642dee,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11541,17 +11715,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: efc5e2f13c0ca1045ab0c1ac554e8f18,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.23129345
+      value: 0.2127
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: efc5e2f13c0ca1045ab0c1ac554e8f18,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.35098195
+      value: 0.4709
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: efc5e2f13c0ca1045ab0c1ac554e8f18,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.08394222
+      value: 0.084
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: efc5e2f13c0ca1045ab0c1ac554e8f18,
         type: 3}
@@ -11850,21 +12024,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 622796231}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (28)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11934,6 +12093,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 0.55008054
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9077ac699e028274a97d4b8ecc269190, type: 3}
@@ -12175,16 +12349,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (25)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12254,6 +12418,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2.9124944
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
@@ -12650,16 +12824,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (31)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12730,6 +12894,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.91173005
       objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9077ac699e028274a97d4b8ecc269190, type: 3}
 --- !u!4 &1206203680 stripped
@@ -12745,21 +12919,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 622796231}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (20)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12829,6 +12988,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 0.55008054
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9077ac699e028274a97d4b8ecc269190, type: 3}
@@ -12909,16 +13083,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (35)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12988,6 +13152,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2.9124944
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
@@ -13281,16 +13455,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (37)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13360,6 +13524,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2.9124944
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
@@ -13546,16 +13720,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (18)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13626,6 +13790,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9124944
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -13646,16 +13820,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (13)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13726,6 +13890,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9124944
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -13791,16 +13965,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (64)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13871,6 +14035,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9125323
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -13923,16 +14097,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (26)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14003,6 +14167,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 113.86339
       objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8564382577979770255, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -14042,16 +14216,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14122,6 +14286,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9124944
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -14174,16 +14348,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (54)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14254,6 +14418,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9125133
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -14274,21 +14448,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 622796231}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (27)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14359,6 +14518,21 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 0.55008054
       objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9077ac699e028274a97d4b8ecc269190, type: 3}
 --- !u!4 &1445722828 stripped
@@ -14393,16 +14567,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (27)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14473,6 +14637,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 113.86483
       objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8564382577979770255, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -14512,16 +14686,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (55)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14592,6 +14756,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9125133
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -14658,16 +14832,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (16)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14738,6 +14902,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9124944
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -14758,16 +14932,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (29)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14837,6 +15001,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2.9124944
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
@@ -14967,21 +15141,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 622796231}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (29)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15052,6 +15211,21 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 0.55008054
       objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9077ac699e028274a97d4b8ecc269190, type: 3}
 --- !u!4 &1509126986 stripped
@@ -15116,16 +15290,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (32)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15196,6 +15360,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.91173005
       objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9077ac699e028274a97d4b8ecc269190, type: 3}
 --- !u!4 &1519697573 stripped
@@ -15241,16 +15415,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (59)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15320,6 +15484,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2.9125133
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
@@ -15636,21 +15810,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 622796231}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (17)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15720,6 +15879,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 0.55008054
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9077ac699e028274a97d4b8ecc269190, type: 3}
@@ -15862,16 +16036,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (42)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15942,6 +16106,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9124944
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -15962,16 +16136,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (23)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16042,6 +16206,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9124944
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -16062,16 +16236,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (23)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16141,6 +16305,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 113.85903
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8564382577979770255, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
@@ -16313,21 +16487,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 622796231}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (32)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16398,6 +16557,21 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 0.4588442
       objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9077ac699e028274a97d4b8ecc269190, type: 3}
 --- !u!4 &1681827801 stripped
@@ -16441,6 +16615,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 9077636121959774563, guid: 3b3ca0f865291574b8fa47b0f131401d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4322965117238824372, guid: 3b3ca0f865291574b8fa47b0f131401d,
         type: 3}
@@ -16527,16 +16706,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (70)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16607,6 +16776,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9125693
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (70)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -16627,16 +16806,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (27)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16707,6 +16876,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9124944
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -16736,6 +16915,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6951064931409737306, guid: b1db054d56a0b1e48aec34d7f4642dee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1443042691407137819, guid: b1db054d56a0b1e48aec34d7f4642dee,
         type: 3}
@@ -16867,16 +17051,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (28)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16946,6 +17120,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2.9124944
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
@@ -17057,16 +17241,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (14)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17137,6 +17311,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9124944
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -17157,16 +17341,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (14)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17236,6 +17410,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 113.85897
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8564382577979770255, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
@@ -17363,6 +17547,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 7641480751769167833, guid: 9abceee7b73c62b48a8ad72a4e55a2ad,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 2395798296494057108, guid: 9abceee7b73c62b48a8ad72a4e55a2ad,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17441,6 +17630,29 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1775522171}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1775522173 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7641480751769167833, guid: 9abceee7b73c62b48a8ad72a4e55a2ad,
+    type: 3}
+  m_PrefabInstance: {fileID: 1775522171}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1775522174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775522173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 0
+  m_snapOrientation: 0
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
 --- !u!1 &1780279507
 GameObject:
   m_ObjectHideFlags: 0
@@ -17691,7 +17903,7 @@ PrefabInstance:
     - target: {fileID: 3472490928153710762, guid: e7b3b00b763987942bed3f2d275d94e2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3472490928153710762, guid: e7b3b00b763987942bed3f2d275d94e2,
         type: 3}
@@ -17823,16 +18035,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (15)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17903,6 +18105,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 113.85897
       objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8564382577979770255, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -17951,6 +18163,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6951064931409737306, guid: b1db054d56a0b1e48aec34d7f4642dee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1443042691407137819, guid: b1db054d56a0b1e48aec34d7f4642dee,
         type: 3}
@@ -18303,16 +18520,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (45)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18382,6 +18589,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2.9124944
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
@@ -18520,16 +18737,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (49)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18599,6 +18806,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2.9124944
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
@@ -18875,16 +19092,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (71)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18954,6 +19161,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2.9125693
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (71)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
@@ -19039,16 +19256,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (36)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19119,6 +19326,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9124944
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -19162,6 +19379,25 @@ Transform:
   m_Father: {fileID: 2131042572}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1933346977 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7410622333744056780, guid: d05b0a1bf88c747dfb7e71be2abdc77e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1743944784}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1933346978
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933346977}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 14.161527, y: 2.821875, z: 12.663695}
+  m_Center: {x: -1.643945, y: 5.056156, z: 5.7352934}
 --- !u!1 &1936039266
 GameObject:
   m_ObjectHideFlags: 0
@@ -19278,16 +19514,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (47)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19358,6 +19584,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9124944
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -19371,6 +19607,29 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1951705156}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1954770963 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7641480751769167833, guid: 9abceee7b73c62b48a8ad72a4e55a2ad,
+    type: 3}
+  m_PrefabInstance: {fileID: 622423409}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1954770964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954770963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 0
+  m_snapOrientation: 0
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
 --- !u!1001 &1964058687
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19518,16 +19777,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (62)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19598,6 +19847,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9125323
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -19618,16 +19877,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (53)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19698,6 +19947,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9124944
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -19718,21 +19977,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 622796231}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (22)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19802,6 +20046,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 0.4588442
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9077ac699e028274a97d4b8ecc269190, type: 3}
@@ -19968,21 +20227,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 622796231}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (19)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20052,6 +20296,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 0.55008054
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9077ac699e028274a97d4b8ecc269190, type: 3}
@@ -20132,16 +20391,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (19)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20212,6 +20461,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9124944
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -20241,6 +20500,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 120657565512398402, guid: c73fd2664a5677c438bc0db3319ffd50,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4032956639907841105, guid: c73fd2664a5677c438bc0db3319ffd50,
         type: 3}
@@ -20320,6 +20584,29 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2039099169}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2039099171 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 120657565512398402, guid: c73fd2664a5677c438bc0db3319ffd50,
+    type: 3}
+  m_PrefabInstance: {fileID: 2039099169}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2039099172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2039099171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 0
+  m_snapOrientation: 0
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
 --- !u!1 &2040020067
 GameObject:
   m_ObjectHideFlags: 0
@@ -20404,16 +20691,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (72)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20484,6 +20761,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9125693
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (72)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -20513,6 +20800,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6951064931409737306, guid: b1db054d56a0b1e48aec34d7f4642dee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1443042691407137819, guid: b1db054d56a0b1e48aec34d7f4642dee,
         type: 3}
@@ -20719,16 +21011,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (31)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20798,6 +21080,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2.9124944
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
@@ -20919,6 +21211,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FlashLight_metlampPREFAB
       objectReference: {fileID: 0}
+    - target: {fileID: 4636173454344695516, guid: 5c39c5cf7017e3a4c9aa3d998dd7fc06,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 8506638793394707663, guid: 5c39c5cf7017e3a4c9aa3d998dd7fc06,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20994,6 +21291,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.361
       objectReference: {fileID: 0}
+    - target: {fileID: 6238703439624397177, guid: 5c39c5cf7017e3a4c9aa3d998dd7fc06,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c39c5cf7017e3a4c9aa3d998dd7fc06, type: 3}
 --- !u!4 &2077106240 stripped
@@ -21002,6 +21304,29 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2077106239}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2077106241 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4636173454344695516, guid: 5c39c5cf7017e3a4c9aa3d998dd7fc06,
+    type: 3}
+  m_PrefabInstance: {fileID: 2077106239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2077106242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077106241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 0
+  m_snapOrientation: 0
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
 --- !u!1 &2077367998
 GameObject:
   m_ObjectHideFlags: 0
@@ -21054,16 +21379,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (52)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21134,6 +21449,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9124944
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -21184,16 +21509,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete pilar prefab (51)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4731153379611853785, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21264,6 +21579,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9124944
       objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete pilar prefab (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643312816904843722, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8056905900895733014, guid: af0ffda0d9ab6c04293c32ea4aeba8aa,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -21293,6 +21618,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6951064931409737306, guid: b1db054d56a0b1e48aec34d7f4642dee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1443042691407137819, guid: b1db054d56a0b1e48aec34d7f4642dee,
         type: 3}
@@ -21424,16 +21754,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 538582645}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (19)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21504,6 +21824,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 113.85903
       objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8564382577979770255, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -21543,21 +21873,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 622796231}
     m_Modifications:
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_Name
-      value: Concrete wall prefab (16)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6394340990156768064, guid: 9077ac699e028274a97d4b8ecc269190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21627,6 +21942,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 0.55008054
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_Name
+      value: Concrete wall prefab (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991103831445696851, guid: 9077ac699e028274a97d4b8ecc269190,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9077ac699e028274a97d4b8ecc269190, type: 3}
@@ -21853,7 +22183,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 9
   m_Type: 1
-  m_Color: {r: 0.26415092, g: 0.26415092, b: 0.26415092, a: 1}
+  m_Color: {r: 0.05660379, g: 0.05660379, b: 0.05660379, a: 1}
   m_Intensity: 2.77
   m_Range: 10
   m_SpotAngle: 30
@@ -21945,7 +22275,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 30358008}
-  m_RootOrder: 16
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 143.09401, z: 0}
 --- !u!4 &117901844237207198 stripped
 Transform:
@@ -21975,6 +22305,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721851818566948571, guid: 050f8fc8d5d0683478e021d01b7f77d5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 2431493840257803464, guid: 050f8fc8d5d0683478e021d01b7f77d5,
         type: 3}
@@ -22065,6 +22400,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 8766889209997892617, guid: e5f85ae14a5dadd4c85d1a0e465480ef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 5760498173298077210, guid: e5f85ae14a5dadd4c85d1a0e465480ef,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22137,3 +22477,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5f85ae14a5dadd4c85d1a0e465480ef, type: 3}
+--- !u!1 &5644058765694642309 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8766889209997892617, guid: e5f85ae14a5dadd4c85d1a0e465480ef,
+    type: 3}
+  m_PrefabInstance: {fileID: 5644058765694642308}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5644058765694642310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5644058765694642309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 0
+  m_snapOrientation: 0
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
