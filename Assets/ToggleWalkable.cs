@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class ToggleWalkable : MonoBehaviour
 {
-    private void Toggle()
+    public void Toggle()
     {
         GetComponent<Collider>().enabled = !GetComponent<Collider>().enabled;
+        GetComponent<ParticleSystem>().Stop();
     }
 }
