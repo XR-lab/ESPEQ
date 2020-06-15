@@ -760,6 +760,7 @@
           </e>
           <e p="Movement" t="Include">
             <e p="InteractionTeleport.cs" t="Include" />
+            <e p="TeleportInputHandlerCustom.cs" t="Include" />
           </e>
           <e p="OVRInputBinding" t="Include">
             <e p="FeedBackControllerTest.cs" t="Include" />
@@ -773,6 +774,7 @@
             <e p="NextSceneTrigger.cs" t="Include" />
             <e p="SceneSwitcher.cs" t="Include" />
             <e p="StartSceneScript.cs" t="Include" />
+            <e p="SwitchScene.cs" t="Include" />
           </e>
           <e p="SimpleCameraController.cs" t="Include" />
           <e p="TeleportPlayer.cs" t="Include" />
