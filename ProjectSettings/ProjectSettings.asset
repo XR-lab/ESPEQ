@@ -169,7 +169,7 @@ PlayerSettings:
     Standalone: com.DefaultCompany.EspeqLWRP
   buildNumber: {}
   AndroidBundleVersionCode: 1
-  AndroidMinSdkVersion: 19
+  AndroidMinSdkVersion: 23
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 0
   aotOptions: 
