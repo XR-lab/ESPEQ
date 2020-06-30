@@ -287,6 +287,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _target: {fileID: 6651051695786360870}
   _distanceToTravel: 1
+  _setAudio: {fileID: 0}
+  clip: 0
 --- !u!1 &12312579
 GameObject:
   m_ObjectHideFlags: 0
@@ -20009,6 +20011,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50d421fcdfc6a184d81ae6e9f6552133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _setAudio: {fileID: 0}
+  audio: 0
+  target: 0
 --- !u!114 &1126125586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34897,7 +34902,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1770826005881633454}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1770826005881633455}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 11c0707f16de9604e9bf9c6dbf337b01, type: 3}
@@ -39179,6 +39184,40 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 262d0c77c3c5f5144a2db4964c21e996, type: 3}
+--- !u!1 &1770826005881633455 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1770826006043805385, guid: 262d0c77c3c5f5144a2db4964c21e996,
+    type: 3}
+  m_PrefabInstance: {fileID: 1770826005881633454}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1770826005881633456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770826005881633455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab1130e6fec799458084acf30386611, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _setAudio: {fileID: 1770826005881633457}
+  _clip: 0
+--- !u!114 &1770826005881633457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770826005881633455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3867d0562ea48548bd378f768de1d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _clips: []
+  _played: 
 --- !u!4 &1944506340784338913
 Transform:
   m_ObjectHideFlags: 0
@@ -93101,6 +93140,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50d421fcdfc6a184d81ae6e9f6552133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _setAudio: {fileID: 0}
+  audio: 0
+  target: 0
 --- !u!4 &6898410168154698420
 Transform:
   m_ObjectHideFlags: 0
