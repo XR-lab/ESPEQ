@@ -3,8 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Lever
-{
+
     public class JoystickControll : MonoBehaviour
     {
 
@@ -12,32 +11,33 @@ namespace Lever
 
          public float forwardBackwardTilt = 0;
 
-           // public float sideToSideTilt = 0;
+         public float sideToSideTilt = 0;
 
         void Update()
         {
             forwardBackwardTilt = topOfJoystick.rotation.eulerAngles.x;
+            Debug.Log(topOfJoystick.localRotation.x);
             if (forwardBackwardTilt < 355 && forwardBackwardTilt > 290)
             {
                 forwardBackwardTilt = Math.Abs(forwardBackwardTilt - 360);
-
+                Debug.Log("backward"+ forwardBackwardTilt);
             }
             else if (forwardBackwardTilt > 5 && forwardBackwardTilt < 74)
             {
-
+                Debug.Log("forward"+ forwardBackwardTilt);
             }
 
-            /*sideToSideTilt = topOfJoystick.rotation.eulerAngles.z;
+            sideToSideTilt = topOfJoystick.rotation.eulerAngles.z;
             if (sideToSideTilt < 355 && sideToSideTilt > 290)
             {
                 sideToSideTilt = Math.Abs(sideToSideTilt - 360);
-
+                Debug.Log("right" + sideToSideTilt);
             }
             else if (sideToSideTilt > 5 && sideToSideTilt < 74)
             {
-              
+              Debug.Log("left" + sideToSideTilt);
             }
-            */
+            
         }
 
         private void OnTriggerStay(Collider other)
@@ -46,17 +46,8 @@ namespace Lever
             {
                 transform.LookAt(other.transform.position, transform.up);
             }
-            if(transform.rotation.z >= -78)
-            {
-                GetComponent<MovementCementStorter>();
-                Debug.Log("rechts");
-            }
-            if(transform.rotation.z <= -101)
-            {
-                GetComponent<MovementCementStorter>();
-                Debug.Log("links");
-            }
         }
-        }
+        
     }
+    
 

@@ -751,6 +751,7 @@
             <e p="MockInteraction.cs" t="Include" />
           </e>
           <e p="DisableConstraints.cs" t="Include" />
+          <e p="GrabLever.cs" t="Include" />
           <e p="InputInteract.cs" t="Include" />
           <e p="Interaction" t="Include">
             <e p="DetectionSphere.cs" t="Include" />
