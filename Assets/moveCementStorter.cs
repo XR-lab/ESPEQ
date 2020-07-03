@@ -5,13 +5,14 @@ using UnityEngine;
 public class moveCementStorter : MonoBehaviour
 {
     public HingeJoint hinge;
-    public Collider cement;
-
+    public GameObject cement;
+    
+    
     void Update()
     {
         if (hinge.limits.min <= -60)
         {
-            cement.enabled = false;
+            cement.SetActive(false);
         }
     }
 }
