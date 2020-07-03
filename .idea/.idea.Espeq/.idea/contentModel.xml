@@ -742,6 +742,9 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Audio" t="Include">
+            <e p="SetAudio.cs" t="Include" />
+          </e>
           <e p="CountdownTimer" t="Include">
             <e p="TimeDisplayer.cs" t="Include" />
             <e p="Timer.cs" t="Include" />
@@ -757,6 +760,11 @@
             <e p="ExampleEventUsage.cs" t="Include" />
             <e p="InteractionCheck.cs" t="Include" />
             <e p="InteractionHighlight.cs" t="Include" />
+            <e p="OnGrabAudio.cs" t="Include" />
+            <e p="OnloadAudio.cs" t="Include" />
+          </e>
+          <e p="Misc" t="Include">
+            <e p="DistanceTrigger.cs" t="Include" />
           </e>
           <e p="Movement" t="Include">
             <e p="InteractionTeleport.cs" t="Include" />
