@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class moveCementStorter : MonoBehaviour
 {
-    public HingeJoint hinge;
-    public GameObject cement;
-    
-    
-    void Update()
+    public GameObject cementBlock;
+    //public ParticleSystem cementParticle;
+    private void OnTriggerStay(Collider _coll)
     {
-        if (hinge.limits.min <= -60)
+        if (_coll.gameObject.CompareTag("Hand") && CompareTag("LeftButton"))
         {
-            cement.SetActive(false);
+            cementBlock.transform.Translate(Vector3.back * 0.1f);
         }
+        if (_coll.gameObject.CompareTag("Hand") && CompareTag("RightButton"))
+        {
+            cementBlock.transform.Translate(Vector3.forward * 0.1f);
+        }
+    
+       
     }
 }
+
+

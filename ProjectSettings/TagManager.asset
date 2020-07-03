@@ -11,6 +11,8 @@ TagManager:
   - FadePanel
   - LeftHand
   - RightHand
+  - LeftButton
+  - RightButton
   layers:
   - Default
   - TransparentFX

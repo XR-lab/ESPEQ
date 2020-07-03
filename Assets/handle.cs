@@ -13,7 +13,7 @@ public class handle : MonoBehaviour
 
         if(transform.localPosition.z <= -.45f)
         {
-           // GetComponent<CraneController>().MoveUp();
+            //GetComponent<CraneController>().MoveUp();
         }
     }
 }
