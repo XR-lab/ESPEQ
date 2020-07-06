@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Martijn\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Martijn\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Espeq.-1327479593.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Martijn\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Martijn\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_Espeq.-1327479593.00" t="ExcludeRecursive" />
     <e p="C:\Users\Martijn\Desktop\project xr\Aspec\Espeq" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
@@ -765,15 +765,14 @@
             <e p="OnGrabAudio.cs" t="Include" />
             <e p="OnloadAudio.cs" t="Include" />
           </e>
+          <e p="JoystickControll.cs" t="Include" />
           <e p="Misc" t="Include">
             <e p="DistanceTrigger.cs" t="Include" />
           </e>
-          <e p="JoystickControll.cs" t="Include" />
           <e p="Movement" t="Include">
             <e p="InteractionTeleport.cs" t="Include" />
             <e p="TeleportInputHandlerCustom.cs" t="Include" />
           </e>
-          <e p="MovementCementStorter.cs" t="Include" />
           <e p="OVRInputBinding" t="Include">
             <e p="FeedBackControllerTest.cs" t="Include" />
             <e p="OVRInputManager.cs" t="Include" />
