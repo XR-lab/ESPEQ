@@ -11,6 +11,8 @@ TagManager:
   - FadePanel
   - LeftHand
   - RightHand
+  - LeftButton
+  - RightButton
   layers:
   - Default
   - TransparentFX
@@ -24,7 +26,7 @@ TagManager:
   - Prop
   - Player
   - Interactable
-  - 
+  - Grab Ignore Ray
   - 
   - 
   - 

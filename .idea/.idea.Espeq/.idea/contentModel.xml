@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Gebruiker\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Gebruiker\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Espeq.-1788090096.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Gebruiker\Documents\Unity\Espeq" t="IncludeRecursive">
+    <e p="C:\Users\Martijn\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Martijn\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Espeq.-1327479593.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Martijn\Desktop\project xr\Aspec\Espeq" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="DelayAnimation.cs" t="Include" />
         <e p="handle.cs" t="Include" />
+        <e p="moveCementStorter.cs" t="Include" />
         <e p="Oculus" t="Include">
           <e p="AudioManager" t="Include">
             <e p="Scenes" t="Include">
@@ -742,6 +743,9 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Audio" t="Include">
+            <e p="SetAudio.cs" t="Include" />
+          </e>
           <e p="CountdownTimer" t="Include">
             <e p="TimeDisplayer.cs" t="Include" />
             <e p="Timer.cs" t="Include" />
@@ -751,17 +755,25 @@
             <e p="MockInteraction.cs" t="Include" />
           </e>
           <e p="DisableConstraints.cs" t="Include" />
+          <e p="GrabLever.cs" t="Include" />
           <e p="InputInteract.cs" t="Include" />
           <e p="Interaction" t="Include">
             <e p="DetectionSphere.cs" t="Include" />
             <e p="ExampleEventUsage.cs" t="Include" />
             <e p="InteractionCheck.cs" t="Include" />
             <e p="InteractionHighlight.cs" t="Include" />
+            <e p="OnGrabAudio.cs" t="Include" />
+            <e p="OnloadAudio.cs" t="Include" />
           </e>
+          <e p="Misc" t="Include">
+            <e p="DistanceTrigger.cs" t="Include" />
+          </e>
+          <e p="JoystickControll.cs" t="Include" />
           <e p="Movement" t="Include">
             <e p="InteractionTeleport.cs" t="Include" />
             <e p="TeleportInputHandlerCustom.cs" t="Include" />
           </e>
+          <e p="MovementCementStorter.cs" t="Include" />
           <e p="OVRInputBinding" t="Include">
             <e p="FeedBackControllerTest.cs" t="Include" />
             <e p="OVRInputManager.cs" t="Include" />
